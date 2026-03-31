@@ -5,4 +5,4 @@ jobs:
         runs-on: unbuntu-lastest
         steps:
             - name: checking out the repository
-            -run: echo "First test"
+                run: echo "First test"
