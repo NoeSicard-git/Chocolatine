@@ -4,5 +4,5 @@ jobs:
     check_compile:
         runs-on: unbuntu-lastest
         steps:
-            name: checking out the repository
+            - name: checking out the repository
             -run: echo "First test"
