@@ -1,0 +1,7 @@
+name: chocolatine
+on:[push, pull_request]
+jobs:
+    checking out the repository:
+        runs-on: unbuntu-lastest
+        steps:
+            run: echo"First test"
